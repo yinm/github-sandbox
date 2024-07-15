@@ -6,7 +6,7 @@ jobs:
   check1:
     runs-on: ubuntu-latest
     steps:
-      - run: exit 0
+      - run: exit 1
 
   check2:
     runs-on: ubuntu-latest
