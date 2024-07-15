@@ -1,0 +1,14 @@
+name: CI
+
+on: push
+
+jobs:
+  check1:
+    runs-on: ubuntu-latest
+    steps:
+      - run: exit 1
+
+  check2:
+    runs-on: ubuntu-latest
+    steps:
+      - run: exit 0
